@@ -69,6 +69,12 @@ function base_pipe_mass(dm, l_base_pipe, s_base_pipe, specific_weight_mathiral) 
 }
 
 // Демонтаж старої спіралі		
+// ЕСЛИ(D3>=300;D7*508,88;ЕСЛИ(D3>=150;D7*436,43;ЕСЛИ(D3<150;D7*290,95;0)
+function base_pipe_mass() {
+  return  
+}
+
+
 // Монтаж нової спіралі		
 // Балансування шнека		
 // Грунтування		
